@@ -26,17 +26,17 @@ await displayLoadingScreen(conn, m.chat)
             },
       forwardingScore: 999,
       externalAdReply: {
-      title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
+      title: "HEROKU",
       body: "R U N T I M E",
       thumbnailUrl: pp,
-      sourceUrl: 'https://guruapi.tech',
+      sourceUrl: 'https://heroku.com',
       mediaType: 1,
       renderLargerThumbnail: false
       }}})
 }
 handler.help = ['runtime']
 handler.tags = ['main']
-handler.command = ['runtime', 'uptime']
+handler.command = ['runtime', 'rt']
 export default handler
 
 function clockString(ms) {
